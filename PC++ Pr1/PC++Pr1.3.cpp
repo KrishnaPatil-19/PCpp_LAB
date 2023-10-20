@@ -22,3 +22,25 @@ int main()
 	return 0;
 }
 
+//this logic is easier to understand
+/*int main(){
+	int n, i;
+	i=2;
+	cin>>n;
+	if(n<i){
+		cout<<"no prime";
+		return 1;
+	}
+	while (n>i)
+	{
+		if((n%i)==0){
+			cout<<"no prime";
+			return 1;
+		}
+		i++;
+	}
+	cout<<"prime";
+	return 0;
+
+
+}*/
