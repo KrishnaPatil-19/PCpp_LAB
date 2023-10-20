@@ -37,3 +37,43 @@ int main()
 	return 0;
 }
 
+
+
+/*#include <iostream>
+using namespace std;
+
+class Number {
+private:
+    int value;
+
+public:
+    Number(int val) : value(val) {}
+
+    // Friend function for addition operator overloading
+    friend Number operator+(const Number& num1, const Number& num2);
+
+    // Display function to print the number
+    void display() {
+        cout << "Value: " << value << endl;
+    }
+};
+
+// Definition of the friend function for addition operator overloading
+Number operator+(const Number& num1, const Number& num2) {
+    int sum = num1.value + num2.value;
+    return Number(sum);
+}
+
+int main() {
+    Number num1(5);
+    Number num2(10);
+
+    // Operator overloading using friend function
+    Number result = num1 + num2;
+
+    cout << "Sum: ";
+    result.display();
+
+    return 0;
+}
+*/

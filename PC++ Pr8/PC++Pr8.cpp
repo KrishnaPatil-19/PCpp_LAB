@@ -42,3 +42,31 @@ int main()
 	return 0;
 }
 
+/*#include <iostream>
+using namespace std;
+
+class MyClass {
+private:
+    int data;
+
+public:
+    MyClass(int value) : data(value) {}
+
+    // Declaration of the friend function
+    friend void displayData(const MyClass& obj);
+};
+
+// Definition of the friend function
+void displayData(const MyClass& obj) {
+    cout << "Data: " << obj.data << endl;
+}
+
+int main() {
+    MyClass obj(42);
+
+    // Calling the friend function to access private data
+    displayData(obj);
+
+    return 0;
+}
+*/
